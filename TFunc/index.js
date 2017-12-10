@@ -7,7 +7,7 @@ module.exports = function (context, myTimer) {
     {
         context.log('JavaScript is running late!');
     }
-    context.log('CRAZY! JavaScript timer trigger function ran!', timeStamp);
+    context.log('?? JavaScript timer trigger function ran!', timeStamp);
 
     var a = _.concat([1,2,3], [4,5,6]);
 
